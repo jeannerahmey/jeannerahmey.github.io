@@ -130,10 +130,21 @@ a:active {
 
 .cad{
 	margin:auto;
-  	display:block;
-  	width: 80%;
+  	/*display:table;*/
+  	width: 70%;
   	height:auto;
   	align-content: center;
+}
+.minnie{
+	margin:auto;
+  	/*display:table;*/
+  	width: 25%;
+  	height:auto;
+  	align-content: center;
+}
+.flex{
+	display:flex;
+	flex-direction: row;
 }
 
 .icon{
