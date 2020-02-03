@@ -40,27 +40,27 @@ let url = window.location.href;
 let color = "black";
 console.log(url);
 
-if (url == "https://jeannerahmey.github.io/index.html"){
+if (url == "http://i6.cims.nyu.edu/~jer591/resume/index.html"){
 	var link = document.getElementById("link1");
-	link.style.backgroundColor = "#fc262d";
+	link.style.backgroundColor = "#ffd500";//"#fc262d";
 }
-else if (url == "https://jeannerahmey.github.io/work.html"){
+else if (url == "http://i6.cims.nyu.edu/~jer591/resume/work.html"){
 	var link = document.getElementById("link2");
-	link.style.backgroundColor = "#d6aa1d";
+	link.style.backgroundColor = "#066781";//"#d6aa1d";
 	color = "#d6aa1d";
 }
-else if (url == "https://jeannerahmey.github.io/volunteer.html"){
+else if (url == "http://i6.cims.nyu.edu/~jer591/resume/volunteer.html"){
 	var link = document.getElementById("link3");
-	link.style.backgroundColor = "#32afca";
+	link.style.backgroundColor = "#e7111c";//"#32afca";
 	color = "#32afca";
 }
-else if (url == "https://jeannerahmey.github.io/skills.html"){
+else if (url == "http://i6.cims.nyu.edu/~jer591/resume/skills.html"){
 	var link = document.getElementById("link4");
-	link.style.backgroundColor = "#fda1aa";
+	link.style.backgroundColor = "#003449";//"#fda1aa";
 }
-else if (url == "https://jeannerahmey.github.io/hobbies.html"){
+else if (url == "http://i6.cims.nyu.edu/~jer591/resume/hobbies.html"){
 	var link = document.getElementById("link5");
-	link.style.backgroundColor = "#43803d";
+	link.style.backgroundColor = "#06451b";//"#43803d";
 }
 
 
