@@ -56,7 +56,7 @@ else if (url == "https://jeannerahmey.github.io/volunteer.html"){
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
   var link = document.getElementById("link4");
-  link.style.backgroundColor = "#6800f2";
+  link.style.backgroundColor = "#880068";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
@@ -65,23 +65,23 @@ else if (url == "https://jeannerahmey.github.io/hobbies.html"){
 
 //Highlight jobs when hover over title
 
-let colors = document.querySelectorAll('.job');
+/*let colors = document.querySelectorAll('.job');
 console.log(colors);
 
 function mouseOver() {
-  colors[0].style.color = "black";
-  colors[1].style.color = "black";
-  colors[2].style.color = "black"; //swapped these and mouseout
-  colors[3].style.color = "black";
+  colors[0].style.color = color;
+  colors[1].style.color = color;
+  colors[2].style.color = color; 
+  colors[3].style.color = color;
 
-  this.style.color = color; //changed from "black"
+  this.style.color = "black";
 }
 
 function mouseOut(){
-  colors[0].style.color = color;
-  colors[1].style.color = color;
-  colors[2].style.color = color;
-  colors[3].style.color = color;
+  colors[0].style.color = "black";
+  colors[1].style.color = "black";
+  colors[2].style.color = "black";
+  colors[3].style.color = "black";
 }
 
 colors[0].addEventListener('mouseover', mouseOver);
@@ -93,3 +93,4 @@ colors[0].addEventListener('mouseout', mouseOut);
 colors[1].addEventListener('mouseout', mouseOut);
 colors[2].addEventListener('mouseout', mouseOut);
 colors[3].addEventListener('mouseout', mouseOut);
+*/

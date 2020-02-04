@@ -157,16 +157,18 @@ a:active {
   margin-right: 10%;
   padding-bottom: 3%;
 }
-h3.color3{
-  color:#677784;
-}
 
-a:hover, img.icon:hover {
+a:hover, img.icon:hover, .job:hover{
   opacity: 0.6;
 }
 
-a:active, img.icon:active {
+a:active, img.icon:active, .job:active {
   opacity: 1;
+}
+
+
+h3.color2{
+  color: #008882;
 }
 
 footer{
