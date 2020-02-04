@@ -15,7 +15,7 @@
  //Night Mode Button
 
  function nightMode() {
- 	const background  = document.querySelector('body');
+  const background  = document.querySelector('body');
     background.className = 'dark';
     const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
     for (let i = 0; i < text.length; i++) {
@@ -25,7 +25,7 @@
 //Day Mode Button
 
 function dayMode() {
-	const background  = document.querySelector('body');
+  const background  = document.querySelector('body');
     background.className = '';
     const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
     for (let i = 0; i < text.length; i++) {
@@ -41,26 +41,26 @@ let color = "black";
 console.log(url);
 
 if (url == "https://jeannerahmey.github.io/index.html"){
-	var link = document.getElementById("link1");
-	link.style.backgroundColor = " #ffb4b4";//"#fc262d";
+  var link = document.getElementById("link1");
+  link.style.backgroundColor = " #ffb4b4";//"#fc262d";
 }
 else if (url == "https://jeannerahmey.github.io/work.html"){
-	var link = document.getElementById("link2");
-	link.style.backgroundColor = "#adc7dc";//"#d6aa1d";
-	color = "#d6aa1d";
+  var link = document.getElementById("link2");
+  link.style.backgroundColor = "#adc7dc";//"#d6aa1d";
+  color = "#adc7dc";
 }
 else if (url == "https://jeannerahmey.github.io/volunteer.html"){
-	var link = document.getElementById("link3");
-	link.style.backgroundColor = " #677784";//"#32afca";
-	color = "#32afca";
+  var link = document.getElementById("link3");
+  link.style.backgroundColor = " #677784";//"#32afca";
+  color = "#677784";
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
-	var link = document.getElementById("link4");
-	link.style.backgroundColor = "#e8ca93";//"#fda1aa";
+  var link = document.getElementById("link4");
+  link.style.backgroundColor = "#e8ca93";//"#fda1aa";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
-	var link = document.getElementById("link5");
-	link.style.backgroundColor = "#ca6c6c";//"#43803d";
+  var link = document.getElementById("link5");
+  link.style.backgroundColor = "#ca6c6c";//"#43803d";
 }
 
 
@@ -79,10 +79,10 @@ function mouseOver() {
 }
 
 function mouseOut(){
-	colors[0].style.color = "black";
-	colors[1].style.color = "black";
-	colors[2].style.color = "black";
-	colors[3].style.color = "black";
+  colors[0].style.color = "black";
+  colors[1].style.color = "black";
+  colors[2].style.color = "black";
+  colors[3].style.color = "black";
 }
 
 colors[0].addEventListener('mouseover', mouseOver);
@@ -94,6 +94,3 @@ colors[0].addEventListener('mouseout', mouseOut);
 colors[1].addEventListener('mouseout', mouseOut);
 colors[2].addEventListener('mouseout', mouseOut);
 colors[3].addEventListener('mouseout', mouseOut);
-
-
-
