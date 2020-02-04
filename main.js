@@ -43,29 +43,24 @@ console.log(url);
 if (url == "https://jeannerahmey.github.io/index.html"){
   var link = document.getElementById("link1");
   link.style.backgroundColor = "#B8336A";
-  link.style.backgroundColor = "#ffd500"; //"#ffb4b4";
 }
 else if (url == "https://jeannerahmey.github.io/work.html"){
   var link = document.getElementById("link2");
   link.style.backgroundColor = "#C490D1";
-  link.style.backgroundColor = "#066781"; //"#adc7dc";
   color = "#C490D1";
 }
 else if (url == "https://jeannerahmey.github.io/volunteer.html"){
   var link = document.getElementById("link3");
   link.style.backgroundColor = "#ACACDE";
-  link.style.backgroundColor = "#e7111c";//"#677784";
   color = "#ACACDE";
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
   var link = document.getElementById("link4");
   link.style.backgroundColor = "#ABDAFC";
-  link.style.backgroundColor = "#003449";//"#e8ca93";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
   link.style.backgroundColor = "#E5FCFF";
-  link.style.backgroundColor = "#06451b"; //"#ca6c6c";
 }
 
 // if (url == "https://jeannerahmey.github.io/index.html"){
