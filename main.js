@@ -42,25 +42,25 @@ console.log(url);
 
 if (url == "https://jeannerahmey.github.io/index.html"){
   var link = document.getElementById("link1");
-  link.style.backgroundColor = "#f71568";
+  link.style.backgroundColor = "#F8B195";
 }
 else if (url == "https://jeannerahmey.github.io/work.html"){
   var link = document.getElementById("link2");
-  link.style.backgroundColor = "#008882";
-  color = "#008882";
+  link.style.backgroundColor = "#F67280 ";
+  color = "#F67280 ";
 }
 else if (url == "https://jeannerahmey.github.io/volunteer.html"){
   var link = document.getElementById("link3");
-  link.style.backgroundColor = "#00aef2";
-  color = "#00aef2";
+  link.style.backgroundColor = "#C06C84 ";
+  color = "#C06C84 ";
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
   var link = document.getElementById("link4");
-  link.style.backgroundColor = "#880068";
+  link.style.backgroundColor = "#6C5B7B";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
-  link.style.backgroundColor = "#ffbfb3";
+  link.style.backgroundColor = "#355C7D ";
 }
 
 //Highlight jobs when hover over title
