@@ -42,50 +42,26 @@ console.log(url);
 
 if (url == "https://jeannerahmey.github.io/index.html"){
   var link = document.getElementById("link1");
-  link.style.backgroundColor = "#B8336A";
+  link.style.backgroundColor = "#f71568";
 }
 else if (url == "https://jeannerahmey.github.io/work.html"){
   var link = document.getElementById("link2");
-  link.style.backgroundColor = "#C490D1";
-  color = "#C490D1";
+  link.style.backgroundColor = "#008882";
+  color = "#008882";
 }
 else if (url == "https://jeannerahmey.github.io/volunteer.html"){
   var link = document.getElementById("link3");
-  link.style.backgroundColor = "#ACACDE";
-  color = "#ACACDE";
+  link.style.backgroundColor = "#00aef2";
+  color = "#00aef2";
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
   var link = document.getElementById("link4");
-  link.style.backgroundColor = "#ABDAFC";
+  link.style.backgroundColor = "#6800f2";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
-  link.style.backgroundColor = "#E5FCFF";
+  link.style.backgroundColor = "#ffbfb3";
 }
-
-// if (url == "https://jeannerahmey.github.io/index.html"){
-//   var link = document.getElementById("link1");
-//   link.style.backgroundColor = "B8336A";//" #ffb4b4";
-// }
-// else if (url == "https://jeannerahmey.github.io/work.html"){
-//   var link = document.getElementById("link2");
-//   link.style.backgroundColor = "C490D1";//"#adc7dc";
-//   color = "C490D1";
-// }
-// else if (url == "https://jeannerahmey.github.io/volunteer.html"){
-//   var link = document.getElementById("link3");
-//   link.style.backgroundColor = "ACACDE"; //"#677784";
-//   color = "ACACDE";
-// }
-// else if (url == "https://jeannerahmey.github.io/skills.html"){
-//   var link = document.getElementById("link4");
-//   link.style.backgroundColor = "ABDAFC"; //"#e8ca93";
-// }
-// else if (url == "https://jeannerahmey.github.io/hobbies.html"){
-//   var link = document.getElementById("link5");
-//   link.style.backgroundColor = "E5FCFF"; //"#ca6c6c";
-// }
-
 
 //Highlight jobs when hover over title
 
