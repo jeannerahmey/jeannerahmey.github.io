@@ -42,30 +42,30 @@ console.log(url);
 
 if (url == "https://jeannerahmey.github.io/index.html"){
   var link = document.getElementById("link1");
-  link.style.backgroundColor = "#ffd500";//"#fc262d";
-  link.style.backgroundColor = " #ffb4b4";//"#fc262d";
+  link.style.backgroundColor = "#ffd500";
+  link.style.backgroundColor = "B8336A"; //"#ffb4b4";
 }
 else if (url == "https://jeannerahmey.github.io/work.html"){
   var link = document.getElementById("link2");
-  link.style.backgroundColor = "#066781";//"#d6aa1d";
-  link.style.backgroundColor = "#adc7dc";//"#d6aa1d";
-  color = "#d6aa1d";
+  link.style.backgroundColor = "#066781";
+  link.style.backgroundColor = "C490D1"; //"#adc7dc";
+  color = "C490D1";
 }
 else if (url == "https://jeannerahmey.github.io/volunteer.html"){
   var link = document.getElementById("link3");
-  link.style.backgroundColor = "#e7111c";//"#32afca";
-  link.style.backgroundColor = " #677784";//"#32afca";
-  color = "#32afca";
+  link.style.backgroundColor = "#e7111c";
+  link.style.backgroundColor = "ACACDE";//"#677784";
+  color = "ACACDE";
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
   var link = document.getElementById("link4");
-  link.style.backgroundColor = "#003449";//"#fda1aa";
-  link.style.backgroundColor = "#e8ca93";//"#fda1aa";
+  link.style.backgroundColor = "#003449";
+  link.style.backgroundColor = "ABDAFC";//"#e8ca93";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
-  link.style.backgroundColor = "#06451b";//"#43803d";
-  link.style.backgroundColor = "#ca6c6c";//"#43803d";
+  link.style.backgroundColor = "#06451b";
+  link.style.backgroundColor = "E5FCFF"; //"#ca6c6c";
 }
 
 // if (url == "https://jeannerahmey.github.io/index.html"){
