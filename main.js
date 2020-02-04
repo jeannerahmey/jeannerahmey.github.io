@@ -6,7 +6,7 @@
  if (hour >= 18 || hour < 6){ // between 6pm and 6 am    
    const background  = document.querySelector('body');
    background.className = 'dark';
-   const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2');
+   const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
    for (let i = 0; i < text.length; i++) {
      text[i].classList.add('dark');
    }
@@ -17,7 +17,7 @@
  function nightMode() {
   const background  = document.querySelector('body');
     background.className = 'dark';
-    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2');
+    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
     for (let i = 0; i < text.length; i++) {
       text[i].classList.add('dark');
    }
@@ -27,7 +27,7 @@
 function dayMode() {
   const background  = document.querySelector('body');
     background.className = '';
-    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2');
+    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
     for (let i = 0; i < text.length; i++) {
       text[i].classList.remove('dark');
   }
