@@ -6,7 +6,7 @@
  if (hour >= 18 || hour < 6){ // between 6pm and 6 am    
    const background  = document.querySelector('body');
    background.className = 'dark';
-   const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
+   const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2');
    for (let i = 0; i < text.length; i++) {
      text[i].classList.add('dark');
    }
@@ -17,7 +17,7 @@
  function nightMode() {
   const background  = document.querySelector('body');
     background.className = 'dark';
-    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
+    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2');
     for (let i = 0; i < text.length; i++) {
       text[i].classList.add('dark');
    }
@@ -27,7 +27,7 @@
 function dayMode() {
   const background  = document.querySelector('body');
     background.className = '';
-    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2, h3');
+    const text  = document.querySelectorAll('p, ul, ol, header, footer, a, h1, h2');
     for (let i = 0; i < text.length; i++) {
       text[i].classList.remove('dark');
   }
@@ -42,25 +42,25 @@ console.log(url);
 
 if (url == "https://jeannerahmey.github.io/index.html"){
   var link = document.getElementById("link1");
-  link.style.backgroundColor = " #ffb4b4";//"#fc262d";
+  link.style.backgroundColor = "B8336A";//" #ffb4b4";
 }
 else if (url == "https://jeannerahmey.github.io/work.html"){
   var link = document.getElementById("link2");
-  link.style.backgroundColor = "#adc7dc";//"#d6aa1d";
-  color = "#adc7dc";
+  link.style.backgroundColor = "C490D1";//"#adc7dc";
+  color = "C490D1";
 }
 else if (url == "https://jeannerahmey.github.io/volunteer.html"){
   var link = document.getElementById("link3");
-  link.style.backgroundColor = " #677784";//"#32afca";
-  color = "#677784";
+  link.style.backgroundColor = "ACACDE"; //"#677784";
+  color = "ACACDE";
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
   var link = document.getElementById("link4");
-  link.style.backgroundColor = "#e8ca93";//"#fda1aa";
+  link.style.backgroundColor = "ABDAFC"; //"#e8ca93";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
-  link.style.backgroundColor = "#ca6c6c";//"#43803d";
+  link.style.backgroundColor = "E5FCFF"; //"#ca6c6c";
 }
 
 
