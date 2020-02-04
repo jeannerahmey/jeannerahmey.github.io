@@ -98,19 +98,19 @@ let colors = document.querySelectorAll('.job');
 console.log(colors);
 
 function mouseOver() {
+  colors[0].style.color = "black";
+  colors[1].style.color = "black";
+  colors[2].style.color = "black"; //swapped these and mouseout
+  colors[3].style.color = "black";
+
+  this.style.color = color; //changed from "black"
+}
+
+function mouseOut(){
   colors[0].style.color = color;
   colors[1].style.color = color;
   colors[2].style.color = color;
   colors[3].style.color = color;
-
-  this.style.color = 'black';
-}
-
-function mouseOut(){
-  colors[0].style.color = "black";
-  colors[1].style.color = "black";
-  colors[2].style.color = "black";
-  colors[3].style.color = "black";
 }
 
 colors[0].addEventListener('mouseover', mouseOver);
