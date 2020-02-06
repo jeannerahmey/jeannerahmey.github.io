@@ -56,16 +56,16 @@ else if (url == "https://jeannerahmey.github.io/volunteer.html"){
 }
 else if (url == "https://jeannerahmey.github.io/skills.html"){
   var link = document.getElementById("link4");
-  link.style.backgroundColor = "#6C5B7B";
+  link.style.backgroundColor = "#907aa3";
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
-  link.style.backgroundColor = "#355C7D";
+  link.style.backgroundColor = "#5087b5";
 }
 
 //Highlight jobs when hover over title
 
-/*let colors = document.querySelectorAll('.job');
+let colors = document.querySelectorAll('.job');
 console.log(colors);
 
 function mouseOver() {
@@ -93,4 +93,4 @@ colors[0].addEventListener('mouseout', mouseOut);
 colors[1].addEventListener('mouseout', mouseOut);
 colors[2].addEventListener('mouseout', mouseOut);
 colors[3].addEventListener('mouseout', mouseOut);
-*/
+
