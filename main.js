@@ -63,8 +63,9 @@ else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   link.style.backgroundColor = "#5087b5";
 }
 
-//Highlight jobs when hover over title
 
+/*
+//Highlight jobs when hover over title
 let colors = document.querySelectorAll('.job');
 console.log(colors);
 
@@ -78,10 +79,10 @@ function mouseOver() {
 }
 
 function mouseOut(){
-  colors[0].style.color = "black";
-  colors[1].style.color = "black";
-  colors[2].style.color = "black";
-  colors[3].style.color = "black";
+  colors[0].style.color = color;
+  colors[1].style.color = color;
+  colors[2].style.color = color;
+  colors[3].style.color = color;
 }
 
 colors[0].addEventListener('mouseover', mouseOver);
@@ -89,8 +90,10 @@ colors[1].addEventListener('mouseover', mouseOver);
 colors[2].addEventListener('mouseover', mouseOver);
 colors[3].addEventListener('mouseover', mouseOver);
 
+
 colors[0].addEventListener('mouseout', mouseOut);
 colors[1].addEventListener('mouseout', mouseOut);
 colors[2].addEventListener('mouseout', mouseOut);
 colors[3].addEventListener('mouseout', mouseOut);
+*/
 
