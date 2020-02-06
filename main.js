@@ -60,7 +60,7 @@ else if (url == "https://jeannerahmey.github.io/skills.html"){
 }
 else if (url == "https://jeannerahmey.github.io/hobbies.html"){
   var link = document.getElementById("link5");
-  link.style.backgroundColor = "#355C7D ";
+  link.style.backgroundColor = "#355C7D";
 }
 
 //Highlight jobs when hover over title
