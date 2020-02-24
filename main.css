@@ -143,7 +143,6 @@ a:active {
 .flex{
   display:flex;
   flex-direction: row;
-  margin:1%;
 }
 .excel{
   margin:auto;
@@ -210,6 +209,10 @@ h1.dark, h2.dark{
     float:right;
     margin-top: 5%;
 
+  }
+  .flex{
+    display:flex;
+    flex-direction: column;
   }
 
 }
