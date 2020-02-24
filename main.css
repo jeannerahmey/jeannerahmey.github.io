@@ -143,6 +143,7 @@ a:active {
 .flex{
   display:flex;
   flex-direction: row;
+  margin:1%;
 }
 .excel{
   margin:auto;
