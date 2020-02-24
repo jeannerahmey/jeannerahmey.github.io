@@ -211,8 +211,7 @@ h1.dark, h2.dark{
 
   }
   .flex{
-    display:flex;
-    flex-direction: column;
+    display:block;
   }
 
 }
